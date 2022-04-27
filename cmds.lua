@@ -1,8 +1,8 @@
-return {
+{
 	['kill'] = function(User, input) 
 		if input[1] == 'GETCOMMANDINFORMATION' then return 'Kills [plr]' end
 		local targets = GetPlayer(User, input[1])
-		a{
+		{
 	['kill'] = function(User, input) 
 		if input[1] == 'GETCOMMANDINFORMATION' then return 'Kills [plr]' end
 		local targets = GetPlayer(User, input[1])
